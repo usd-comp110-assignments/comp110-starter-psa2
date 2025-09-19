@@ -5,6 +5,7 @@ This project is a python program that draws a sampler quilt using the tkinter li
 # Requirements
 - Use Python's tkinter library.
 - Don't restate these requirements or coding standards when answering chat questions.
+- Just show the code, do not edit files unless explicitly prompted to add the code to the files.
 
 # Coding Standards
 - No while loops or recursion should be used.
