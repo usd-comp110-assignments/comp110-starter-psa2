@@ -9,6 +9,7 @@ This project is a python program that draws a sampler quilt using the tkinter li
 
 # Coding Standards
 - No while loops or recursion should be used.
+- Do not use data structures that can hold objects such as lists, tuples, or dictionaries.
 - Do not use list comprehension.
 - Do not use ternary operators.
 - Do not use try except blocks.
