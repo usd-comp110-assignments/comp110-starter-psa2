@@ -12,23 +12,23 @@ NUM_ROWS = 5
 NUM_COLUMNS = 7
 NUM_LOG_CABIN_FRAMES = 4
 
-def draw_log_cabin(canvas):
+def draw_log_cabin(canvas, x, y, block_size):
     pass
 
 
-def draw_flower_petals(canvas):
+def draw_flower_petals(canvas, x, y, block_size):
     pass
 
 
-def draw_celtic_cross(canvas):
+def draw_celtic_cross(canvas, x, y, block_size):
     pass
 
 
-def draw_hybrid(canvas):
+def draw_hybrid(canvas, x, y, block_size):
     pass
 
 
-def draw_custom(canvas):
+def draw_custom(canvas, x, y, block_size):
     pass
 
 
