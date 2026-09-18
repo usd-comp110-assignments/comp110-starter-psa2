@@ -7,12 +7,20 @@ Author: <INSERT YOUR NAME AND EMAIL HERE>
 """
 import tkinter as tk
 
-# Global constants. Do not modify these or add new constants.
+# Global constants. Do NOT modify these or add new constants.
 NUM_ROWS = 5
 NUM_COLUMNS = 7
 NUM_LOG_CABIN_FRAMES = 4
 
 def draw_log_cabin(canvas, x, y, block_size):
+    """Insert a one-sentence description here.
+
+    Args:
+        canvas: The canvas to drawn on.
+        x: The x-coordinate where the upper-left corner of the block.
+        y: Insert a one-sentence description here.
+        block_size: Insert a one-sentence description here.
+    """
     pass
 
 
