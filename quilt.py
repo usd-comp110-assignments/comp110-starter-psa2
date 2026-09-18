@@ -1,5 +1,4 @@
-"""
-COMP 110, PSA 2 (Sampler Quilt)
+"""COMP 110, PSA 2 (Sampler Quilt).
 
 This module contains functions to draw a sampler quilt using tkinter.
 
@@ -41,12 +40,11 @@ def draw_custom(canvas, x, y, block_size):
 
 
 def draw_quilt(canvas, block_size):
-    """
-    Draw the entire quilt by iterating through a pattern and drawing each block.
+    """Draw the entire quilt by iterating through a pattern and drawing each block.
 
-    Parameters:
-        canvas (tkinter.Canvas): The tkinter Canvas to draw on.
-        block_size (int): The width and height of each block in pixels.
+    Args:
+        canvas: The tkinter Canvas to draw on.
+        block_size: The width and height of each block in pixels.
     """
     for current_row in range(NUM_ROWS):
         for current_col in range(NUM_COLUMNS):
@@ -60,8 +58,7 @@ def draw_quilt(canvas, block_size):
 # DO NOT MODIFY ANY CODE BELOW THIS LINE!!!!
 
 def get_block_size():
-    """
-    Prompt the user for a positive integer block size.
+    """Prompt the user for a positive integer block size.
 
     Returns:
         int: The block size entered by the user.
@@ -77,9 +74,7 @@ def get_block_size():
             print("Invalid input. Please enter a positive integer.")
 
 def test_draw_quilt():
-    """
-    Test function to draw a quilt with a user-defined block size for verification.
-    """
+    """Test function to draw a quilt with a user-defined block size for verification."""
     block_size = get_block_size()
 
     root = tk.Tk()
@@ -96,9 +91,7 @@ def test_draw_quilt():
     root.mainloop()
 
 def test_draw_quilt_block():
-    """
-    Test function to draw each type of quilt block individually for verification.
-    """
+    """Test function to draw each type of quilt block individually for verification."""
     print("Note: Canvas size will be 300 by 300 pixels.")
     canvas_width = 300
     canvas_height = 300
@@ -119,9 +112,7 @@ def test_draw_quilt_block():
     root.mainloop()
 
 def main():
-    """
-    Main function to prompt user for testing options.
-    """
+    """Main function to prompt user for testing options."""
 
     print("Welcome to the USD COMP110 Sampler Quilt (PSA2) Tester Program!")
 
