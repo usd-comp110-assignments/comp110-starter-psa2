@@ -3,7 +3,7 @@ COMP 110, PSA 2 (Sampler Quilt)
 
 This module contains functions to draw a sampler quilt using tkinter.
 
-Author: INSERT YOUR NAME AND EMAIL HERE
+Author: <INSERT YOUR NAME AND EMAIL HERE>
 """
 import tkinter as tk
 
